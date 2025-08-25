@@ -1,4 +1,4 @@
-const socket = io("https://chatroom-node-socket-io.vercel.app/");
+const socket = io("https://chatroom-node-socket-io.onrender.com/");
 
 const msgInput = document.querySelector("#message");
 const nameInput = document.querySelector("#name");
