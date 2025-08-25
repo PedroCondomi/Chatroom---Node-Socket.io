@@ -1,4 +1,4 @@
-const socket = io("ws://localhost:8080");
+const socket = io("https://chatroom-node-socket-io.vercel.app/");
 
 const msgInput = document.querySelector("#message");
 const nameInput = document.querySelector("#name");
